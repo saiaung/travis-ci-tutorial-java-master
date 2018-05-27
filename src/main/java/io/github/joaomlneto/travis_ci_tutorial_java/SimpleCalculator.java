@@ -12,9 +12,6 @@ public class SimpleCalculator {
 	public void inc(int d) {
 		res+=d;
 	}
-	public int dec(int a, int b) {
-		return a / b;
-	}
 	public int div(int d) {
 		res+=d;
 	}
