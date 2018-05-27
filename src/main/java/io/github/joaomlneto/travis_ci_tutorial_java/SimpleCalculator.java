@@ -12,7 +12,7 @@ public class SimpleCalculator {
 	public void inc(int d) {
 		res+=d;
 	}
-	public int div(int d) {
+	public int dec(int d) {
 		res+=d;
 	}
 	public int getResult(){
