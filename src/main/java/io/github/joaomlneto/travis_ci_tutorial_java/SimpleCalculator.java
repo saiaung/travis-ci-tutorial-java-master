@@ -1,22 +1,24 @@
 package io.github.joaomlneto.travis_ci_tutorial_java;
 
 public class SimpleCalculator {
-	public int add(int a, int b) {
-		return a + b;
+	private int res=0;
+	
+	public void add(int x, int y) {
+		res=x+y;
 	}
-	public int sub(int a, int b) {
-		return a - b;
+	public void sub(int x, int y) {
+		res=x-y;
 	}
-	public int mul(int a, int b) {
-		return a * b;
+	public void inc(int d) {
+		res+=d;
 	}
-	public int div(int a, int b) {
+	public int dec(int a, int b) {
 		return a / b;
 	}
-	public int div(int a, int b) {
-		return a * b;
+	public int div(int d) {
+		res+=d;
 	}
-	public static final void main(String[] args) {
-		System.out.println("Hello world?");
+	public int getResult(){
+		return res
 	}
 }
